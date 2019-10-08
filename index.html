@@ -11,10 +11,8 @@ function amicable(){
 
 var num1;
 num1 = document.getElementById("num1").value;
-alert(num1);
 var num2;
 num2 = document.getElementById("num2").value;
-alert(num2);
 var num1_check = 0;
 var num2_check = 0;
 
@@ -26,8 +24,6 @@ for (var i = 1; i <= num2; i++) {
     if (num2 % i == 0)
         num2_check += i;
 }
-alert(num1_check);
-alert(num2_check);
 if(num1_check==num2_check)
 {
 	document.write("<center>Congratulations! Your numbers are amicable!<center>")
